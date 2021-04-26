@@ -1,9 +1,10 @@
 <?php
 # font controller
+include "bootstrap/init.php";
 
 use App\Core\Request;
 
-include "vendor/autoload.php";
+print_r($_ENV);
 
 $_SERVER['REQUEST_URI'];
 
