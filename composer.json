@@ -1,0 +1,20 @@
+{
+    "name": "poshtiban/minimvcframework",
+    "description": "mini mvc framework",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Nima Poshtiban",
+            "email": "poshtibannima@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"App\\":"App/"}
+    }
+}
