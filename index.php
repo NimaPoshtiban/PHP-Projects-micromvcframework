@@ -1,8 +1,10 @@
 <?php
 # font controller
+
+use App\Core\SimpleRouter;
+use App\Utilities\Url;
+
 include "bootstrap/init.php";
 
-use App\Core\Request;
-
-
-$_SERVER['REQUEST_URI'];
+$router = new SimpleRouter();
+$router->run();
