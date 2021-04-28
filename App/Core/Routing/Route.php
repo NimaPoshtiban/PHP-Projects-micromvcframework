@@ -5,7 +5,7 @@ class Route
 {
     private static $routes = [];
 
-    public static function add(array | string $methods,string $uri, $action)
+    public static function add(array | string $methods,string $uri, $action=null)
     {
       $methods = is_array($methods) ? $methods : [$methods];
       self::$routes[] = ['methods'=>$methods,'uri'=>$uri,'action'=>$action];
